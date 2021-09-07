@@ -6,8 +6,8 @@ export default function Portfolio() {
     const renderListProject = portfolioSrc.map(project => (
         <div className="portfolio__item">
             <img src={project.srcImg} alt="" />
-            <a href={project.srcGit} target="_blank" className="portfolio__item--title">{project.title}</a>
-            <p className="portfolio__item--info">{project.content}?</p>
+            <a href={project.web} target="_blank" className="portfolio__item--title">{project.title}</a>
+            <p className="portfolio__item--info">{project.content}</p>
             <div className="portfolio__item--overlay">
                 <a href={project.srcGit} target="_blank">
                     <button>Github</button>
