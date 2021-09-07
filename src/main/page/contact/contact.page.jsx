@@ -5,6 +5,7 @@ import mail from "../../img/contact/email_PNG1.png"
 import phone from "../../img/contact/phone_PNG463.png"
 
 export default function Contact() {
+    window.scrollTo(0, 0)
     return (
         <section className="contact">
             <div className="contact__img"></div>

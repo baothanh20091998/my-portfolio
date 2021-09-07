@@ -18,6 +18,7 @@ export default function Portfolio() {
             </div>
         </div>
     ))
+    window.scrollTo(0, 0)
     return (
         <section className="portfolio">
             <div className="portfolio__content">

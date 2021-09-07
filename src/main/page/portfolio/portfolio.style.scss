@@ -112,3 +112,35 @@
     }
   }
 }
+
+@media only screen and (max-width: 1024px) {
+  .portfolio__content--item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .portfolio__content--item .portfolio__item--overlay {
+    background-color: transparent;
+    opacity: 1;
+    height: unset;
+    top: 140px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .portfolio__content--item .portfolio__item--overlay {
+    top: 95px;
+  }
+  .portfolio__content--item .portfolio__item--overlay a button {
+    width: 55px;
+    height: 25px;
+    font-size: 12px;
+  }
+  .portfolio__content--item .portfolio__item--info {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .portfolio__content--item {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}

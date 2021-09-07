@@ -4,7 +4,6 @@ import React, { useEffect, useState } from 'react'
 
 export default function TestPaticles() {
     const [width, setWidth] = useState(window.innerWidth)
-
     useEffect(() => {
         windowResize()
     }, [window.innerWidth])

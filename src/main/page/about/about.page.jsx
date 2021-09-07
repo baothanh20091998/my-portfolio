@@ -18,7 +18,9 @@ export default function About() {
         }
 
     }
+
     window.addEventListener("scroll", scrollView)
+    window.scrollTo(0, 0)
     return (
         <section className="about">
             <div className="about__content">

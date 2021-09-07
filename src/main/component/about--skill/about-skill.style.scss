@@ -46,6 +46,7 @@
 
 @media only screen and (max-width: 1366px) {
   .about__content--skill {
+    margin-top: 100px;
     .skill__content {
       grid-template-columns: repeat(3, 1fr);
     }
@@ -56,8 +57,6 @@
   .about__content--skill {
     .skill__content {
       grid-column-gap: 50px;
-      .skill__item {
-      }
     }
   }
 }
@@ -68,5 +67,8 @@
       grid-template-columns: repeat(2, 1fr);
       grid-column-gap: 50px;
     }
+  }
+  .about__content--skill h1 {
+    width: 30%;
   }
 }
