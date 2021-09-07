@@ -1,0 +1,43 @@
+header {
+  position: fixed;
+  width: 16%;
+}
+.header__toggle {
+  position: absolute;
+  right: 50px;
+  top: 50px;
+  cursor: pointer;
+  display: none;
+  z-index: 15;
+  &--item {
+    width: 20px;
+    height: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px 0;
+    background-color: black;
+  }
+}
+.overlay__toggle {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba($color: black, $alpha: 0.7);
+  z-index: 10;
+}
+main {
+  width: 84%;
+  margin-left: 16%;
+}
+@media only screen and (max-width: 736px) {
+  .header__toggle {
+    display: block;
+  }
+  main {
+    width: 100%;
+    margin-left: 0;
+  }
+}

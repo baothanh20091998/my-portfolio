@@ -1,0 +1,16 @@
+.about {
+  &__content {
+    &--info,
+    &--skill,
+    &--hobbies {
+      padding-top: 5%;
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+
+    &--skill {
+    }
+    &--hobbies {
+    }
+  }
+}

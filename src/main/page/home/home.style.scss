@@ -1,0 +1,41 @@
+.home__info {
+  position: absolute;
+  top: 36%;
+  left: 42%;
+  transform: translate(-50%, -50%);
+  h1,
+  h3,
+  p {
+    color: white;
+    font-weight: 800;
+    span {
+      color: #4ea3ff;
+    }
+  }
+  a {
+    opacity: 0.5;
+    transition: all 0.5s;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .home__info {
+    left: 45%;
+    top: 25%;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .home__info {
+    left: 40%;
+    h1 {
+      font-size: 2rem;
+    }
+    h3 {
+      font-size: 1.25rem;
+    }
+  }
+}

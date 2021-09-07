@@ -1,23 +1,29 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Redirect, Route, Switch } from "react-router-dom";
+import "./App.css";
+import { mainRoutes } from "./main/config/main.config";
+import MainTemplate from "./main/template/main.template";
 
 function App() {
+  const renderMainRoute = mainRoutes.map((route, index) => {
+    const { Component, exact, path } = route;
+    return (
+      <Route path={path} exact={exact} key={index}>
+        <MainTemplate>
+          <Component />
+        </MainTemplate>
+      </Route>
+    );
+  });
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Switch>
+          {renderMainRoute}
+          <Route>
+            <Redirect to="/"></Redirect>
+          </Route>
+        </Switch>
+      </BrowserRouter>
     </div>
   );
 }

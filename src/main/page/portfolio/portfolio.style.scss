@@ -1,0 +1,113 @@
+.portfolio {
+  padding: 5% 5% 0;
+  &__content {
+    &--title {
+      color: #fb4226;
+      font-weight: 700;
+      position: relative;
+      width: 12%;
+      padding: 10px 0;
+      z-index: 2;
+      margin-bottom: 80px;
+      &:after,
+      &:before {
+        position: absolute;
+        content: "";
+        bottom: 0;
+        left: 0;
+        background-color: #fb4226;
+        width: 50%;
+        height: 10px;
+        border-radius: 0 10px 10px 0;
+        z-index: 2;
+      }
+      &:before {
+        width: 100%;
+        background-color: rgba($color: #000000, $alpha: 0.7);
+        z-index: 2;
+      }
+      span {
+        position: absolute;
+        top: 10px;
+        left: 0;
+        filter: blur(3px);
+        z-index: 1;
+        font-size: 80px;
+        color: rgba($color: #000000, $alpha: 0.1);
+      }
+    }
+    &--item {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 50px;
+      padding: 50px;
+      border: 1px solid black;
+      border-radius: 10px;
+      box-shadow: 0 0 10px black;
+      .portfolio__item {
+        position: relative;
+        padding: 10px;
+        border: 1px solid black;
+        box-shadow: 0 0 10px black;
+        border-top-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+        img {
+          width: 100%;
+          border-top-left-radius: 50px;
+          border-bottom-right-radius: 50px;
+          margin-bottom: 15px;
+        }
+        &--title {
+          font-weight: 700;
+          transition: all 0.5s;
+          &:hover {
+            text-decoration: none;
+            color: #fb4226;
+          }
+        }
+        &--info {
+          font-size: 14px;
+          padding: 10px 0;
+        }
+        &--overlay {
+          position: absolute;
+          width: 100%;
+          top: 0;
+          left: 0;
+          height: 240px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          border-top-left-radius: 50px;
+          border-bottom-right-radius: 50px;
+          background-color: rgba($color: #fff, $alpha: 0.7);
+          transition: all 0.5s;
+          padding: 10px;
+          opacity: 0;
+          &:hover {
+            opacity: 1;
+          }
+          a {
+            margin: 0 10px;
+            button {
+              width: 75px;
+              height: 40px;
+              border-radius: 4px;
+              background-color: white;
+              cursor: pointer;
+              font-weight: 500;
+              transition: all 0.5s;
+              &:focus {
+                outline: none;
+              }
+              &:hover {
+                background-color: #4ea3ff;
+                color: white;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
