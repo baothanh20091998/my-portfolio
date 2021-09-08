@@ -5,6 +5,7 @@ import fb from "../../img/contact/facebook_logos_PNG19753.png"
 import git from "../../img/contact/github_PNG2.png"
 
 export default function Home() {
+    window.scrollTo(0, 0)
     return (
         <>
             <ParticleComponent />

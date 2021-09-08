@@ -1,5 +1,6 @@
 import portfolio from "../img/Portfolio/my-porttfolio.png";
 import movie from "../img/Portfolio/project-movie.png";
+import smallproject from "../img/Portfolio/project-reactjs.png";
 
 export const portfolioSrc = [
   {
@@ -19,12 +20,12 @@ export const portfolioSrc = [
       "Project Portfolio using React JS to introduce myself and show my project.",
   },
   {
-    srcImg: portfolio,
-    srcGit: "https://github.com/baothanh20091998/clone-tix",
-    web: "https://github.com/baothanh20091998/clone-tix",
-    title: "Lorem, ipsum dolor.",
+    srcImg: smallproject,
+    srcGit: "https://github.com/baothanh20091998/project-js",
+    web: "https://project-reactjs-zeta.vercel.app/xuc-xac",
+    title: "Small Project Reactjt",
     content:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, veniam quos ipsum fuga labore nam laboriosam, in corporis ab suscipit doloribus hic, voluptatibus minima eum praesentium. Sed reiciendis at quisquam corporis, aspernatur itaque fugiat exercitationem error quia magni numquam recusandae!",
+      "Project using ReactJS to make some small project: Game Bau Cua, Shopping Cart, Show Room Car,... ",
   },
   {
     srcImg: portfolio,
