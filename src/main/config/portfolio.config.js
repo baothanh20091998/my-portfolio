@@ -1,6 +1,7 @@
 import portfolio from "../img/Portfolio/my-porttfolio.png";
 import movie from "../img/Portfolio/project-movie.png";
 import smallproject from "../img/Portfolio/project-reactjs.png";
+import customer from "../img/Portfolio/customer-management.png";
 
 export const portfolioSrc = [
   {
@@ -28,19 +29,11 @@ export const portfolioSrc = [
       "Project using ReactJS to make some small project: Game Bau Cua, Shopping Cart, Show Room Car,... ",
   },
   {
-    srcImg: portfolio,
-    srcGit: "https://github.com/baothanh20091998/clone-tix",
-    web: "https://github.com/baothanh20091998/clone-tix",
-    title: "Lorem, ipsum dolor.",
+    srcImg: customer,
+    srcGit: "https://github.com/baothanh20091998/customer-management-js",
+    web: "https://customer-management-js.vercel.app/",
+    title: "Customer Management",
     content:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, veniam quos ipsum fuga labore nam laboriosam, in corporis ab suscipit doloribus hic, voluptatibus minima eum praesentium. Sed reiciendis at quisquam corporis, aspernatur itaque fugiat exercitationem error quia magni numquam recusandae!",
-  },
-  {
-    srcImg: portfolio,
-    srcGit: "https://github.com/baothanh20091998/clone-tix",
-    web: "https://github.com/baothanh20091998/clone-tix",
-    title: "Lorem, ipsum dolor.",
-    content:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque, veniam quos ipsum fuga labore nam laboriosam, in corporis ab suscipit doloribus hic, voluptatibus minima eum praesentium. Sed reiciendis at quisquam corporis, aspernatur itaque fugiat exercitationem error quia magni numquam recusandae!",
+      "Project using JavaScript and MockApi to make an application to manage staff",
   },
 ];

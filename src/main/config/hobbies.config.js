@@ -16,7 +16,7 @@ export const hobbiesSrc = [
     content: "I want to meet my all friends and my all lover",
   },
   {
-    title: "COFFE",
+    title: "COFFEE",
     src: coffe,
     content: "The drink I link the most",
   },
