@@ -3,6 +3,7 @@ import movie from "../img/Portfolio/project-movie.png";
 import smallproject from "../img/Portfolio/project-reactjs.png";
 import customer from "../img/Portfolio/customer-management.png";
 import chatapp from "../img/Portfolio/chat-app.png";
+import backendmovie from "../img/Portfolio/backend-movie.png";
 
 export const portfolioSrc = [
   {
@@ -20,6 +21,14 @@ export const portfolioSrc = [
     title: "Chat App Socket IO",
     content:
       "Project Backend using socket io, nodejs, express to build a chat app real time",
+  },
+  {
+    srcImg: backendmovie,
+    srcGit: "https://github.com/baothanh20091998/backend-projcet-movie-nodejs",
+    web: "https://project-movie-backend-nodejs.herokuapp.com/",
+    title: "Project Movie Backend Server",
+    content:
+      "Project using Nodejs, Express,... to build a server backend for manager the movie, user,...",
   },
   {
     srcImg: portfolio,
