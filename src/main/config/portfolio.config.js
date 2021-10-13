@@ -2,6 +2,7 @@ import portfolio from "../img/Portfolio/my-porttfolio.png";
 import movie from "../img/Portfolio/project-movie.png";
 import smallproject from "../img/Portfolio/project-reactjs.png";
 import customer from "../img/Portfolio/customer-management.png";
+import chatapp from "../img/Portfolio/chat-app.png";
 
 export const portfolioSrc = [
   {
@@ -11,6 +12,14 @@ export const portfolioSrc = [
     title: "Project Movie",
     content:
       "Project Movie , my Biggest Project, using React JS to clone tix movie for buying ticket movie.",
+  },
+  {
+    srcImg: chatapp,
+    srcGit: "https://github.com/baothanh20091998/chat-app",
+    web: "https://bao-thanh-chat-app.herokuapp.com/",
+    title: "Chat App Socket IO",
+    content:
+      "Project Backend using socket io, nodejs, express to build a chat app real time",
   },
   {
     srcImg: portfolio,
