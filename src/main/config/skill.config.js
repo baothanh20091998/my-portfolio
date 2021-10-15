@@ -4,7 +4,6 @@ import js from "../img/skill/javascpirt.a25aed23.svg";
 import node from "../img/skill/nodejs.d6184938.svg";
 import react from "../img/skill/react.af71450f.svg";
 import scss from "../img/skill/sass.3b0ef218.svg";
-import ts from "../img/skill/typescript.79b9df4f.svg";
 
 export const skillImg = [
   {
@@ -22,10 +21,6 @@ export const skillImg = [
   {
     name: "JavaScript",
     src: js,
-  },
-  {
-    name: "TypeScript",
-    src: ts,
   },
   {
     name: "React JS",
