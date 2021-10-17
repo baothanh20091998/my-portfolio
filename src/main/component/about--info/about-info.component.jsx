@@ -1,5 +1,5 @@
 import React from 'react'
-import avatar from '../../img/58662373_2387457131531901_58716343284793344_n.jpg'
+import avatar from '../../img/663_Thanh.jpg'
 import "./about--info.style.scss"
 
 
